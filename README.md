@@ -21,11 +21,11 @@ You need to install ``asv`` benchmark framework and ``virtualenv``.
 
     asv run asv run --skip-existing-commits ALL
     
-At first time of benchmarking, it takes a long time, but the result is cashed.
+At first time of benchmarking, it takes a long time, because all commits are benchmarked.
 
 From the second time, only new commits are benchmarked.
 
-## 2. Show benchmark result
+## 3. Show benchmark result
 
 Generate html document
 
